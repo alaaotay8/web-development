@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="Formulaire.css">
+</head>
+<body>
+    <fieldset>
+        <legend>Formulaire</legend>
+        <form action="">
+		<table border=0>
+		<tr>
+            <td><label > Civilité</label></td>
+           <td><input type="radio" name="R1" checked>Monsieur
+            <input type="radio" name ="R1">Madame
+            <input type="radio" name ="R1">Mademoiselle
+            </td></tr>
+			<tr>
+            <td><label>Nom / Prenom</label></td>
+             <td><input type="text" name = "nomprenom"> <td></tr>          
+            <tr><td><label>Adresse</label></td>
+            <td><textarea cols="30" rows="2"></textarea></td></tr>
+            <tr><td><label>No Postal/Localité</label></td>
+            <td><input type="text" size="5">
+            <input type="text" size="15"></td></tr>
+            <tr><td><label>Pays</label></td>
+            <td><select size="1">
+                <option>Tunisie</option>
+                <option>Algérie</option>
+                <option>Libye</option>
+                <option>Maroc</option>
+            </select></td></tr>
+            <tr><td><label>Platforme</label></td>
+            <td><input type="checkbox" checked><label>Windows</label>
+            <input type="checkbox" checked><label>Macintosh</label>
+            <input type="checkbox"><label>Unix</label></td></tr>
+           <tr><td><label>Application(s)</label></td>
+            <td><select size="4">
+                <option>Bureautique</option>
+                <option>DAO</option>
+                <option>SGBD</option>
+                <option>Internet</option>
+                <option>Mobile</option>
+            </select></td></tr>           
+			</table>
+            <div align =right>
+                <input type="reset" value="Effacer">
+                <input type="submit" value="Soumettre formulaire">
+            </div>
+        </form>
+    </fieldset>
+</body>
+</html>
